@@ -6,6 +6,7 @@ body {
 	align-items: stretch;
 	font-family: Arial, sans-serif;
 	font-size: 14px;
+	white-space: nowrap;
 }
 
 nav {
