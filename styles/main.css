@@ -1,0 +1,37 @@
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	font-family: Arial, sans-serif;
+}
+
+#logo-div {
+	display: block;
+	flex-grow: 0;
+	width: 272px;
+	align-self: center;
+}
+
+#search-form {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 120px;
+	max-width: 584px;
+}
+
+#search-input {
+	border: 1px solid gray;
+	border-radius: 16px;
+}
+
+#search-buttons {
+	text-align: center;
+	margin: 30px;
+}
+
+#search-buttons > button {
+	margin: 4px;
+}
