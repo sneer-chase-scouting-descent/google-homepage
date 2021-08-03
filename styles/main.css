@@ -5,6 +5,68 @@ body {
 	justify-content: space-between;
 	align-items: stretch;
 	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	padding: 6px 6px 6px 16px;
+	box-sizing: border-box;
+	height: 60px;
+	color: #222;
+}
+
+nav a {
+	text-decoration: none;
+	color: inherit;
+}
+
+nav > a {
+	margin: 0 5px;
+	padding: 5px;
+}
+
+nav > #right {
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+}
+
+nav > #right > a {
+	margin: 0 15px 0 0;
+}
+
+#google-apps {
+	box-sizing: border-box;
+	width: 40px;
+	height: 40px;
+	padding: 8px;
+	margin: 0 12px 0 4px;
+}
+
+#google-apps svg {
+	fill: #5f6368;
+}
+
+#sign-in-button {
+	background-color: #2b7de9;
+	font-size: 14px;
+	color: #fff;
+	box-sizing: border-box;
+	margin: 0 8px;
+	padding: 9px 23px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	min-width: 96px;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: 0.25px;
+	line-height: 16px;
+}
+
+nav > #spacer {
+	flex: 1 0 48px;
 }
 
 #logo-div {
