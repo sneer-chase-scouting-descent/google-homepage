@@ -112,3 +112,9 @@ nav > #spacer {
 #search-buttons > button {
 	margin: 4px;
 }
+
+footer {
+	display: flex;
+	height: 46px;
+	background-color: #f2f2f2;
+}
