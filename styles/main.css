@@ -7,6 +7,11 @@ body {
 	font-family: Arial, sans-serif;
 	font-size: 14px;
 	white-space: nowrap;
+}	
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 nav {
@@ -16,12 +21,7 @@ nav {
 	box-sizing: border-box;
 	height: 60px;
 	color: #222;
-}
-
-nav a {
-	text-decoration: none;
-	color: inherit;
-}
+}	
 
 nav > a {
 	margin: 0 5px;
@@ -116,5 +116,19 @@ nav > #spacer {
 footer {
 	display: flex;
 	height: 46px;
+	padding: 0 20px;
 	background-color: #f2f2f2;
+	color: #70757a;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer a {
+	padding: 15px;
+}
+
+@media (max-width: 1200px) {
+	footer {
+		justify-content: space-evenly;
+	}
 }
