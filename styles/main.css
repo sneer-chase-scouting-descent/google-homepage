@@ -40,6 +40,7 @@ nav > #right {
 
 nav > #right > a {
 	margin: 0 15px 0 0;
+	padding: 8px 0;
 }
 
 #google-apps {
@@ -59,7 +60,7 @@ nav > #right > a {
 	box-sizing: border-box;
 	width: 96px;
 	height: 36px;
-	padding: 9px 23px;
+	padding: 9px 23px !important;
 	border: 1px solid transparent;
 	border-radius: 4px;
 	color: #fff;
