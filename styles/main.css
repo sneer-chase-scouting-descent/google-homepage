@@ -119,6 +119,8 @@ nav > #spacer {
 	border-radius: 16px;
 	flex-grow: 1;
 	font-size: 16px;
+	font-family: Arial, sans-serif;
+	outline: none;
 }
 
 #search-buttons {
