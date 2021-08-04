@@ -100,12 +100,24 @@ nav > #spacer {
 	height: 44px;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0 8px;
+}
+
+#search-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 8px;
+}
+
+#search-icon > img {
+	width: 100%;
 }
 
 #search-input {
 	border-style: none;
 	border-radius: 16px;
 	flex-grow: 1;
+	font-size: 16px;
 }
 
 #search-buttons {
