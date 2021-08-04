@@ -52,18 +52,15 @@ nav > #right > a {
 
 #sign-in-button {
 	background-color: #2b7de9;
-	font-size: 14px;
-	color: #fff;
 	box-sizing: border-box;
-	margin: 0 8px;
+	width: 96px;
+	height: 36px;
 	padding: 9px 23px;
 	border: 1px solid transparent;
 	border-radius: 4px;
-	min-width: 96px;
+	color: #fff;
+	font-size: 14px;
 	text-align: center;
-	vertical-align: middle;
-	letter-spacing: 0.25px;
-	line-height: 16px;
 }
 
 nav > #spacer {
