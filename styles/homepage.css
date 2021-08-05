@@ -107,9 +107,11 @@ nav > a {
 }
 
 #logo-div {
-	display: block;
-	flex-grow: 0;
+	display: flex;
+	flex: 1 0 92px;
 	width: 272px;
+	flex-direction: column;
+	justify-content: flex-end;
 	align-self: center;
 }
 
