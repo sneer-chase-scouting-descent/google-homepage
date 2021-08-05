@@ -62,6 +62,7 @@ nav > #right > a {
 
 #google-apps a:focus {
 	background-color: #ebebec;
+	outline: none;
 }
 
 #google-apps a:active {
