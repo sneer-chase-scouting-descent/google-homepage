@@ -44,11 +44,28 @@ nav > #right > a {
 }
 
 #google-apps {
+	margin: 0 12px 0 4px;
+}
+
+#google-apps a {
+	display: inline-block;
 	box-sizing: border-box;
 	width: 40px;
 	height: 40px;
 	padding: 8px;
-	margin: 0 12px 0 4px;
+	border-radius: 50%;
+}
+
+#google-apps a:hover {
+	background-color: #eff0f0;
+}
+
+#google-apps a:focus {
+	background-color: #ebebec;
+}
+
+#google-apps a:active {
+	background-color: #e7e8e8;
 }
 
 #google-apps svg {
