@@ -32,13 +32,13 @@ nav > a {
 	padding: 5px;
 }
 
-nav > #right {
+#nav-right {
 	display: flex;
 	align-items: center;
 	font-size: 13px;
 }
 
-nav > #right > a {
+#nav-right > a {
 	margin: 0 15px 0 0;
 	padding: 8px 0;
 }
@@ -194,16 +194,22 @@ nav > #right > a {
 
 footer {
 	display: flex;
-	height: 46px;
 	padding: 0 20px;
 	background-color: #f2f2f2;
 	color: #70757a;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
+}
+
+footer div {
+	height: 46px;
 }
 
 footer a {
 	padding: 15px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 @media (max-width: 1200px) {
