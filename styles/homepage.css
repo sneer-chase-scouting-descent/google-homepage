@@ -192,7 +192,7 @@ nav > a {
 }
 
 #search-form-footer-spacer {
-	flex: 0 1 250px;
+	flex-grow: 1;
 }
 
 footer {
