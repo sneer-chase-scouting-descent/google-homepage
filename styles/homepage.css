@@ -139,7 +139,6 @@ nav > a {
 	height: 44px;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 8px;
 }
 
 #search-box:hover {
@@ -150,7 +149,7 @@ nav > a {
 #search-icon {
 	width: 20px;
 	height: 20px;
-	margin: 0 8px;
+	margin: 0 14px;
 	filter: invert(0.61);
 }
 
@@ -159,6 +158,8 @@ nav > a {
 }
 
 #search-input {
+	position: relative;
+	bottom: 1px;
 	border-style: none;
 	border-radius: 16px;
 	flex-grow: 1;
