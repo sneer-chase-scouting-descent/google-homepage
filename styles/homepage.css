@@ -110,6 +110,7 @@ nav > a {
 	display: flex;
 	flex: 1 0 92px;
 	width: 272px;
+	max-height: 260px;
 	flex-direction: column;
 	justify-content: flex-end;
 	align-self: center;
