@@ -173,9 +173,9 @@ nav > a {
 	margin: 30px;
 }
 
-#search-buttons > button {
+#search-buttons > button, #search-buttons input {
 	margin: 0 4px;
-	padding: 0 16px;
+	padding: 4px 16px;
 	height: 36px;
 	font-family: Arial, sans-serif;
 	font-size: 14px;
@@ -184,14 +184,19 @@ nav > a {
 	border-radius: 4px;
 }
 
-#search-buttons > button:hover {
+#search-buttons > button:hover, #search-buttons input:hover {
 	border: 1px solid #dfe1e5;
 	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
-#search-buttons > button:focus {
+#search-buttons > button:focus, #search-buttons input:focus {
 	border: 1px solid #4285f4;
 	outline: none;
+}
+
+#search-buttons a:hover, #search-buttons a:focus {
+	cursor: default;
+	text-decoration: none;
 }
 
 #search-form-footer-spacer {
