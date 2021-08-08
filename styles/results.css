@@ -1,0 +1,9 @@
+body {
+	min-width: 1261px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
