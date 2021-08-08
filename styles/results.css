@@ -7,3 +7,9 @@ body {
 	font-family: Arial, sans-serif;
 	font-size: 14px;
 }
+
+#top-bar {
+	display: flex;
+	height: 48px;
+	margin: 24px;
+}
