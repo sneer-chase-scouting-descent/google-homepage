@@ -157,6 +157,8 @@ nav {
 	width: 656px;
 	position: relative;
 	left: 176px;
+	display: flex;
+	align-items: center;
 }
 
 nav a {
