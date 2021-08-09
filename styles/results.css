@@ -19,7 +19,7 @@ a:hover {
 #top-bar {
 	display: flex;
 	height: 48px;
-	margin: 26px;
+	margin: 26px 26px 15px;
 	align-items: center;
 }
 
