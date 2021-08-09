@@ -97,8 +97,8 @@ a:hover {
 	filter: invert(0.35);
 }
 
-#google-apps a, #preferences {
-	display: inline-block;
+#google-apps, #preferences {
+	display: block;
 	box-sizing: border-box;
 	width: 40px;
 	height: 40px;
@@ -106,16 +106,16 @@ a:hover {
 	border-radius: 50%;
 }
 
-#google-apps a:hover, #preferences:hover {
+#google-apps:hover, #preferences:hover {
 	background-color: #eff0f0;
 }
 
-#google-apps a:focus, #preferences:focus {
+#google-apps:focus, #preferences:focus {
 	background-color: #ebebec;
 	outline: none;
 }
 
-#google-apps a:active, #preferences:active {
+#google-apps:active, #preferences:active {
 	background-color: #e7e8e8;
 }
 
