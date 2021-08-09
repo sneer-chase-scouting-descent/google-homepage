@@ -12,6 +12,13 @@ body {
 	display: flex;
 	height: 48px;
 	margin: 26px;
+	align-items: center;
+}
+
+#top-logo {
+	width: 92px;
+	height: 30px;
+	margin-right: 40px;
 }
 
 #search-box {
