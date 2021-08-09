@@ -15,9 +15,9 @@ body {
 }
 
 #search-box {
-	width: 100%;
+	width: 666px;
 	height: 44px;
-	padding: 0 24px;
+	padding: 0 18px;
 	border: 1px solid transparent;
 	border-radius: 24px;
 	box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.12);
@@ -31,23 +31,25 @@ body {
 	box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.15);
 }
 
-#clear-search-box, #search-icon {
+#clear-search-box-icon, #search-icon {
 	width: 24px;
 	height: 24px;
 }
 
 #clear-search-box {
+	padding: 0 12px 0 8px;
+	border-right: 1px solid #ddd;
+	cursor: pointer;
+}
+
+#clear-search-box-icon {
 	filter: invert(0.45);
 }
 
-#clear-box-search-icon-separator {
-	height: 28px;
-	width: 1px;
-	background-color: lightgray;
-}
-
 #search-icon {
+	padding-left: 12px;
 	filter: invert(50%) sepia(50%) hue-rotate(180deg) saturate(650%);
+	cursor: pointer;
 }
 
 #search-input {
