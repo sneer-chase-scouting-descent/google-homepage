@@ -84,6 +84,10 @@ a:hover {
 	outline: none;
 }
 
+.spacer-grow {
+	flex: 1 0 0;
+}
+
 #top-bar-right-buttons {
 	display: flex;
 	align-items: center;
