@@ -158,3 +158,29 @@ nav {
 	position: relative;
 	left: 176px;
 }
+
+nav a {
+	display: inline-block;
+	height: 16px;
+	padding: 11px 0px;
+	margin: 0px 12px;
+}
+
+nav a:hover {
+	text-decoration: none;
+}
+
+nav img {
+	height: 18px;
+	vertical-align: -30%;
+	margin-left: -1px;
+}
+
+#search-all {
+	color: #1a73e8;
+	border-bottom: 3px solid #1a73e8;
+}
+
+#search-all img {
+	filter: invert(39%) sepia(60%) saturate(4481%) hue-rotate(201deg) brightness(95%) contrast(91%);
+}
