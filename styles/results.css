@@ -86,6 +86,7 @@ a:hover {
 
 #top-bar-right-buttons {
 	display: flex;
+	align-items: center;
 }
 
 #preferences img {
