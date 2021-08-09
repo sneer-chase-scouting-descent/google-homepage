@@ -164,7 +164,7 @@ nav {
 nav a {
 	display: inline-block;
 	height: 16px;
-	padding: 11px 0px;
+	padding: 11px 0px 14px;
 	margin: 0px 11px;
 	color: #5f6368;
 }
@@ -181,6 +181,7 @@ nav img {
 }
 
 #search-all {
+	padding: 11px 0px;
 	color: #1a73e8;
 	border-bottom: 3px solid #1a73e8;
 }
