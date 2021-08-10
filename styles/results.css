@@ -216,3 +216,8 @@ nav img {
 	height: 1px;
 	background-color: #ebebeb;
 }
+
+#results {
+	max-width: 656px;
+	margin-left: 176px;
+}
