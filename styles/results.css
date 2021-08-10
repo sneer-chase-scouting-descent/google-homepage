@@ -8,6 +8,10 @@ body {
 	font-size: 14px;
 }
 
+b {
+	font-weight: bold;
+}
+
 a, a:hover {
 	text-decoration: none;
 }
@@ -234,4 +238,9 @@ nav img {
 	color: #1a0dab;
 	font-size: 20px;
 	line-height: 38px;
+}
+
+.result-content {
+	color: #4d5156;
+	line-height: 22px;
 }
