@@ -222,3 +222,16 @@ nav img {
 	color: #202124;
 }
 
+.result-url .webpage-path::before {
+	content: "› ";
+}
+
+.result-url .webpage-path, .down-arrow-after-url {
+	color: #5f6368;
+}
+
+.result-title {
+	color: #1a0dab;
+	font-size: 20px;
+	line-height: 38px;
+}
