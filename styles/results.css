@@ -248,6 +248,10 @@ nav img {
 	line-height: 32px;
 }
 
+.result-title:hover {
+	text-decoration: underline;
+}
+
 .result-content {
 	color: #4d5156;
 	line-height: 22px;
