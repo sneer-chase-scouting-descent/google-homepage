@@ -226,3 +226,11 @@ nav img {
 	color: #70757a;
 	margin: 14px 0 20px;
 }
+
+.result-url .base-website {
+	color: #202124;
+}
+
+.result-url .base-website:hover {
+	text-decoration: none;
+}
