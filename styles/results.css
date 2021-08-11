@@ -264,6 +264,7 @@ nav img {
 #people-also-ask {
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 48px;
 }
 
 #people-also-ask-title {
