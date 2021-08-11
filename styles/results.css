@@ -256,3 +256,12 @@ nav img {
 	color: #4d5156;
 	line-height: 22px;
 }
+
+#people-also-ask {
+	display: flex;
+	flex-direction: column;
+}
+
+#people-also-ask-title {
+	font-size: 22px;
+}
