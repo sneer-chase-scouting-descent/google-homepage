@@ -223,7 +223,7 @@ nav img {
 }
 
 .result {
-	margin-bottom: 40px;
+	margin-bottom: 32px;
 }
 
 .result-url {
@@ -261,10 +261,20 @@ nav img {
 	line-height: 22px;
 }
 
+.links-within-result {
+	color: #70757a;
+	line-height: 22px;
+}
+
+.links-within-result > a {
+	color: #1a0dab;
+}
+
 #people-also-ask {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 48px;
+	margin-top: 40px;
 }
 
 #people-also-ask-title {
