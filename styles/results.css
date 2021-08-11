@@ -268,4 +268,13 @@ nav img {
 
 #people-also-ask-title {
 	font-size: 22px;
+	color: #202124;
+	margin-bottom: 12px;
+}
+
+.people-also-ask-listing {
+	border-top: 1px solid #ebebeb;
+	line-height: 43px;
+	color: #202124;
+	font-size: 16px;
 }
