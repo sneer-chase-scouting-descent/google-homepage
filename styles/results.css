@@ -285,3 +285,20 @@ nav img {
 .people-also-ask-listing > img {
 	filter: invert(0.45);
 }
+
+.feedback {
+	display: flex;
+	align-items: center;
+}
+
+.feedback > a {
+	color: #70757a;
+	margin-left: 14px;
+	font-size: 12px;
+}
+
+.hor-dividing-line-dark {
+	height: 1px;
+	flex: 1 0 0;
+	background-color: #dadce0;
+}
