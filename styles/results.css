@@ -355,3 +355,74 @@ nav img {
 .related-search:hover {
 	text-decoration: underline;
 }
+
+#page-navigator {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 8px 0 30px;
+}
+
+.page-number {
+	margin-top: 5px;
+	color: #4285f4;
+}
+
+#page-navigator > a, #page-one {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#page-one {
+	align-items: flex-end;
+}
+
+#page-one > .page-number {
+	margin-right: 6px;
+}
+
+#page-navigator img {
+	width: 20px;
+	height: 38px;
+	object-fit: cover;
+	object-position: -50px;
+}
+
+#page-one > img {
+	width: 50px;
+	object-position: 0;
+}
+
+#page-navigator > a:hover {
+	text-decoration: underline;
+}
+
+#next-page {
+	height: 57px;
+	flex-direction: row !important;
+	align-items: flex-start !important;
+}
+
+#next-page > img {
+	width: 50px;
+	object-position: -70px;
+}
+
+#next-page-arrow-and-text {
+	height: 57px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	color: #4285f4;
+}
+
+#next-page-arrow-and-text > img {
+	object-fit: unset;
+	object-position: unset;
+	margin: -4px 6px 0;
+	width: 24px;
+	transform: rotate(-90deg);
+	filter: invert(47%) sepia(64%) saturate(3189%) hue-rotate(201deg) brightness(100%) contrast(92%);
+}
