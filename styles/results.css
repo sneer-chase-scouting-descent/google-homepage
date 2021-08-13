@@ -308,6 +308,10 @@ nav img {
 	font-size: 12px;
 }
 
+.feedback > a:hover {
+	text-decoration: underline;
+}
+
 .hor-dividing-line-dark {
 	height: 1px;
 	flex: 1 0 0;
