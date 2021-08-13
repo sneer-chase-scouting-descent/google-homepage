@@ -2,7 +2,7 @@
 
 This repo houses the code for the google homepage and results page lookalikes made as part of TOP Foundations.
 
-UPDATE 20210813: The project is done! View it at [this link](https://sneer-chase-scouting-descent.github.io/google-homepage/).
+UPDATE 20210813: The project is done! View it at [this link](https://sneer-chase-scouting-descent.github.io/google-homepage/). Also, the "Google Search" button on the homepage links to the results page and the Google logo (top-right) on the results page links to the homepage.
 
 ## Skills demonstrated during completion
 
