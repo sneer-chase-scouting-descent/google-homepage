@@ -430,3 +430,32 @@ nav img {
 	transform: rotate(-90deg);
 	filter: invert(47%) sepia(64%) saturate(3189%) hue-rotate(201deg) brightness(100%) contrast(92%);
 }
+
+#location {
+	box-sizing: border-box;
+	height: 53px;
+	background-color: #f2f2f2;
+	padding: 12px 0 0 176px;
+	border-bottom: 1px solid #dadce0;
+	line-height: 40px;
+	color: #70757a;
+}
+
+#current-location {
+	font-weight: bold;
+	color: #3c4043;
+}
+
+#current-location::before {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #70757a;
+	border-radius: 50%;
+	margin: 0 4px 1px 0;
+}
+
+#update-location {
+	color: #1a73e8; 
+}
